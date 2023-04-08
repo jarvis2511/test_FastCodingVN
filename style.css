@@ -1,0 +1,700 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+}
+
+.footer__area,
+.nav__area {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.nav__logo {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    height: 5vw;
+}
+
+.nav__logo img {
+    height: 50%;
+    width: auto;
+}
+
+
+.nar__icon {
+    width: 40%;
+}
+
+.nav__dir {
+    width: 40%;
+}
+
+.nav__icon--style,
+.nav__dir--list {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.wrap {
+    font-size: 14px;
+}
+
+.header {
+    width: 100%;
+    padding-top: 55%;
+    background-image: url('./image/header-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.area {
+    position: absolute;
+    top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header__infor {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.header__infor--text {
+    width: 50%;
+}
+
+.header__infor--text h1 {
+    margin: 8% 0;
+    font-size: 2.6vw;
+}
+
+.header__infor--text hr {
+    width: 15%;
+    margin: 0;
+
+}
+
+.header__infor--text p {
+    padding: 15px 0;
+    font-size: 1vw;
+    width: 85%;
+    margin: 8% 0;
+}
+
+.header__infor--text img {
+    width: 30%;
+}
+
+.header__infor--text button {
+    padding: 2% 7%;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 0.1vw solid white;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+.header__form--area {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__form {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__form--title {
+    background-color: #ccc;
+    padding: 5%;
+    font-size: 1.4vw;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.item--img {
+    width: 100%;
+    height: auto;
+}
+
+.form__title--oth {
+    color: #ff8b38;
+}
+
+.header__form form {
+    padding-bottom: 10%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form--details {
+    width: 100%;
+    color: #333;
+}
+
+.contact__form--message input,
+.contact__form input,
+.header__form input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 8% 0;
+    font-size: 0.8vw;
+}
+
+.header__form--button {
+    background-color: #ff9b51;
+    padding: 5%;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.area--contact,
+.area--features--reverse,
+.area--ourprocess,
+.area--features {
+    width: 80%;
+    margin: 10% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.area--features--reverse {
+    flex-direction: row-reverse;
+}
+
+.area--ourprocess {
+    flex-direction: column;
+}
+
+.features__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.featurelist__item:nth-child(odd) {
+    background: #f5f5f5;
+}
+
+.item1_par {
+    flex-basis: 20%;
+}
+
+.item1__tabs {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #333333;
+    border-radius: 4px;
+}
+
+.item1__tabs p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8vw;
+    height: 100%;
+}
+
+.item1__tabs div {
+    height: 0.1vw;
+    background-color: white;
+}
+
+.item1__tabs p:first-child {
+    background-color: #ff8b38;
+}
+
+.item1_par--cont {
+    flex-grow: 1;
+}
+
+.features_text h1 {
+    font-weight: bold;
+    font-size: 1.4vw;
+}
+
+.features_text h2 {
+    font-weight: bold;
+    font-size: 1vw;
+
+}
+
+.features__content--details,
+.features_text p {
+    padding: 6% 0;
+    color: black;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1vw;
+    width: 92%;
+}
+
+.features_text hr {
+    border: 0.1vw solid #ff8b38;
+    width: 12%;
+    margin: 1vw 0;
+    margin-bottom: -0.5vw;
+}
+
+.features_text p {
+    padding: 0.4vw 0px;
+}
+
+.contact__text button,
+.features_text button {
+    border: 0 solid white;
+    background-color: #ff8b38;
+    color: white;
+    padding: 1vw 2vw;
+    text-align: center;
+    font-size: 0.8vw;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.item__par--double {
+    width: 46%;
+}
+
+.item3_par {
+    width: 50%;
+}
+
+.item2_category {
+    display: flex;
+    padding-bottom: 8%;
+}
+
+.item2_category img {
+    height: 15%;
+    width: 15%;
+    padding-right: 2vw;
+}
+
+.item2_category h2 {
+    margin: 0;
+}
+
+.fix {
+    padding: 0;
+}
+
+.featurelist__item3 {
+    display: flex;
+
+}
+
+.ourprocess {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ourprocess__infor {
+    margin: auto;
+}
+
+.area__content h1,
+.ourprocess__infor h1 {
+    font-size: 2.4vw;
+}
+
+.ourprocess__desc {
+    display: flex;
+    padding-top: 2vw;
+}
+
+.ourprocess__desc--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourprocess__desc--item img {
+    width: 10%;
+}
+
+.ourprocess__text h1 {
+    padding: 2vw 0;
+}
+
+.ourprocess__text hr {
+    margin: auto;
+    width: 20%;
+    border: 0.1vw solid #ff8b38;
+}
+
+.ourprocess__text--desc {
+    padding: 2vw 0;
+    opacity: 0.6;
+    font-size: 1vw;
+}
+
+.custom {
+    background-image: url('./image/custom.jpg');
+    width: 100%;
+    padding-top: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.area--custom {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.area__content {
+    text-align: center;
+}
+
+.area__content hr {
+    margin: 2vw auto 0 auto;
+    width: 12%;
+    border: 0.1vw solid #fff;
+}
+
+.area__content button {
+    padding: 1% 5%;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 0.1vw solid white;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+.area__content p {
+    padding: 2vw 0;
+    font-size: 1vw;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4vw;
+}
+
+.contact__form {
+    width: 45%;
+}
+
+.contact__form input {
+    padding: 1vw 0;
+}
+
+.contact__form--message {
+    height: 8vw;
+    text-align: left;
+    opacity: 0.6;
+    font-size: 0.8vw;
+    font-weight: 200;
+}
+
+.contact__form--message label {
+    padding: 0;
+}
+
+.contact__form--message input {
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    height: 100%;
+}
+
+.footer__details {
+    width: 100%;
+    text-align: center;
+    height: 80%;
+}
+
+.footer__area p {
+    color: white;
+    font-size: 0.6vw;
+}
+
+.footer__details {
+    height: 100%;
+}
+
+.footer__icon {
+    font-size: 0.8vw;
+    padding: 0.8% 0;
+    color: white;
+}
+
+.footer__icon i {
+    padding: 0 0.4vw;
+}
+
+* input:focus {
+    outline: none;
+}
+
+.nav__icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .nav__dir {
+        display: none;
+    }
+
+    .nav__icon {
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav__icon--style,
+    .nav__dir--list {
+        font-size: 1.2vw;
+    }
+
+
+    .header__infor--text h1 {
+        font-size: 2vw;
+    }
+
+    .header__infor--text p {
+        font-size: 1.6vw;
+    }
+
+    .header__infor--text button {
+        font-size: 1.6vw;
+    }
+
+    .header__form--title {
+        font-size: 1.6vw;
+    }
+
+    .contact__form--message input,
+    .contact__form input,
+    .header__form input {
+        font-size: 1.4vw;
+    }
+
+    .header__form--button {
+        font-size: 1.6vw;
+    }
+
+    .item1__tabs p {
+        font-size: 1.4vw;
+    }
+
+    .features_text h1 {
+        font-size: 1.8vw;
+    }
+
+    .features_text h2 {
+        font-size: 1.4vw;
+    }
+
+    .features__content--details,
+    .features_text p {
+        font-size: 1.4vw;
+    }
+
+    .contact__text button,
+    .features_text button {
+        font-size: 1.4vw;
+
+    }
+
+    .area__content h1,
+    .ourprocess__infor h1 {
+        font-size: 2.8vw;
+
+    }
+
+    .ourprocess__text--desc {
+        font-size: 1.4vw;
+
+    }
+
+    .area__content button {
+        font-size: 1.6vw;
+
+    }
+
+    .area__content p {
+        font-size: 1.4vw;
+
+    }
+
+    .contact__form--message {
+        font-size: 1.4vw;
+
+    }
+
+    .footer__area p {
+        font-size: 1vw;
+    }
+
+    .contact__form--message {
+        height: 11vw;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width : 820px) {
+
+    .nav__icon--style,
+    .nav__dir--list {
+        font-size: 1vw;
+    }
+
+
+    .header__infor--text h1 {
+        font-size: 1.8vw;
+    }
+
+    .header__infor--text p {
+        font-size: 1.4vw;
+    }
+
+    .header__infor--text button {
+        font-size: 1.4vw;
+    }
+
+    .header__form--title {
+        font-size: 1.6vw;
+    }
+
+    .contact__form--message input,
+    .contact__form input,
+    .header__form input {
+        font-size: 1.2vw;
+    }
+
+    .header__form--button {
+        font-size: 1.2vw;
+    }
+
+    .item1__tabs p {
+        font-size: 1vw;
+    }
+
+    .features_text h1 {
+        font-size: 1.6vw;
+    }
+
+    .features_text h2 {
+        font-size: 1.2vw;
+    }
+
+    .features__content--details,
+    .features_text p {
+        font-size: 1.2vw;
+    }
+
+    .contact__text button,
+    .features_text button {
+        font-size: 1vw;
+
+    }
+
+    .area__content h1,
+    .ourprocess__infor h1 {
+        font-size: 2.6vw;
+
+    }
+
+    .ourprocess__text--desc {
+        font-size: 1.2vw;
+
+    }
+
+    .area__content button {
+        font-size: 1.4vw;
+
+    }
+
+    .area__content p {
+        font-size: 1.2vw;
+
+    }
+
+    .contact__form--message {
+        font-size: 1vw;
+
+    }
+
+    .footer__area p {
+        font-size: 1vw;
+    }
+
+    .contact__form--message {
+        height: 9.2vw;
+    }
+}
